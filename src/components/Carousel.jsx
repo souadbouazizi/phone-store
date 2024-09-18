@@ -16,7 +16,7 @@ function UncontrolledExample() {
           alt="First slide"
           style={{filter: 'brightness(50%)'}}
         />
-        <Carousel.Caption className="text-white d-flex flex-column justify-content-center align-items-start"
+        <Carousel.Caption className="text-white d-md-flex d-none flex-column justify-content-center align-items-start"
           style={{ left: '10%', top: '50%', transform: 'translateY(-50%)' }}>
           <h3 className='fs-1 fw-bold text-uppercase' style={{ textShadow: '1px 1px 3px rgba(0,0,0,0.5)' }}>Phone Store</h3>
           <p className='fs-2'>Connecting Dreams, One Call at a Time</p>
@@ -33,7 +33,7 @@ function UncontrolledExample() {
           alt="Second slide"
           style={{filter: 'brightness(50%)'}}
         />
-        <Carousel.Caption className="text-white d-flex flex-column justify-content-center align-items-start"
+        <Carousel.Caption className="text-white d-md-flex d-none flex-column justify-content-center align-items-start"
           style={{ left: '10%', top: '50%', transform: 'translateY(-50%)' }}>
         <h3 className='fs-1 fw-bold text-uppercase'style={{ textShadow: '1px 1px 3px rgba(0,0,0,0.5)' }}>Phone Store</h3>
         <p className='fs-2'>Connecting Dreams, One Call at a Time</p>
@@ -50,7 +50,7 @@ function UncontrolledExample() {
           alt="Third slide"
           style={{filter: 'brightness(50%)'}}
         />
-        <Carousel.Caption className="text-white d-flex flex-column justify-content-center align-items-start"
+        <Carousel.Caption className="text-white d-md-flex d-none flex-column justify-content-center align-items-start"
           style={{ left: '10%', top: '50%', transform: 'translateY(-50%)' }}>
         <h3 className='fs-1 fw-bold text-uppercase' style={{ textShadow: '1px 1px 3px rgba(0,0,0,0.5)' }}>Phone Store</h3>
         <p className='fs-2'>Connecting Dreams, One Call at a Time</p>
