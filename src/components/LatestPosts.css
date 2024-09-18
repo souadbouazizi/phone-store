@@ -1,0 +1,40 @@
+.latest-posts-section {
+    padding: 50px 0;
+    background-color: #f8f9fa; /* Couleur de fond légère pour le contraste */
+  }
+  
+  .latest-posts-section .card-img-top {
+    height: 200px; /* Fixer une hauteur uniforme pour les images */
+    object-fit: cover; /* Assurer que l'image couvre bien l'espace sans déformation */
+  }
+  
+  .latest-posts-section .card {
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Ajoute une ombre légère pour un effet de profondeur */
+  }
+  
+
+  /* Animation pour le titre et les images */
+.zoom-effect {
+    animation: zoom-in-out 5s infinite;
+  }
+  
+  .zoom-card {
+    /* Vous pouvez ajouter un peu d'ombre pour plus de contraste */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  }
+  
+  .zoom-img {
+    animation: zoom-in-out 5s infinite;
+  }
+  
+  @keyframes zoom-in-out {
+    0% {
+      transform: scale(1);
+    }
+    50% {
+      transform: scale(1.2); /* Augmentez ou réduisez pour ajuster le niveau de zoom */
+    }
+    100% {
+      transform: scale(1);
+    }
+  }

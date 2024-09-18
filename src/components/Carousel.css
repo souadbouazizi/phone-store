@@ -1,0 +1,15 @@
+.custom-carousel-indicators .carousel-indicators [data-bs-target] {
+    width: 12px;
+    height: 12px;
+    border-radius: 50%;
+    background-color: rgba(197, 236, 242, 0.5); /* Bootstrap info color (rgba format) */
+  }
+  
+  .custom-carousel-indicators .carousel-indicators .active {
+    background-color: #17a2b8; /* Fully opaque Bootstrap info color */
+  }
+
+
+  .carousel-control-next-icon, .carousel-control-prev-icon {
+    width: 10rem;
+    height: 13rem;}

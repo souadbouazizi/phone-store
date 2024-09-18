@@ -1,0 +1,17 @@
+
+
+
+.icon {
+    animation: blink 2s infinite; /* animation of 2 seconds, loops infinitely */
+  }
+  
+  @keyframes blink {
+    0%, 100% {
+      color: #2264b0 ; /* Initial color (Bootstrap info color) */
+      transform: scale(1); /* Default size */
+    }
+    50% {
+      color: #f00; /* Color at mid-animation */
+      transform: scale(1.3); /* Slightly larger size */
+    }
+  }

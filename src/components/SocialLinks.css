@@ -1,0 +1,20 @@
+.social-links {
+  display: flex;
+  justify-content: center; /* Centers icons horizontally */
+  gap: 15px; /* Space between icons */
+  padding: 10px;
+}
+
+.social-links a {
+  text-decoration: none; /* Remove underline from links */
+  color: #78a9fd; /* Default icon color */
+  transition: color 0.3s; /* Smooth color transition */
+}
+
+.social-links a:hover {
+  color: #007bff; /* Color when hovering */
+}
+
+.social-links svg {
+  font-size: 24px; /* Size of the icons */
+}

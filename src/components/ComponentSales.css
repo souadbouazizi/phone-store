@@ -1,0 +1,71 @@
+.product-col {
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 100%; /* Adapte la hauteur à celle de l'image */
+  }
+  
+  .product-col .card {
+    background-color: rgba(0, 0, 0, 0.5); /* Assombrit le fond de la carte pour que le texte soit lisible */
+  }
+  
+  /* Définition de l'animation de zoom-out */
+/* Définition de l'animation de zoom-out pour l'image de fond */
+
+/* Définir l'animation de zoom-in et zoom-out */
+@keyframes zoomInOut {
+    0% {
+      transform: scale(1);
+    }
+    25% {
+      transform: scale(1.2); /* Zoom avant */
+    }
+    50% {
+        transform: scale(1.5); /* Zoom avant */
+      }
+      75% {
+        transform: scale(1.2); /* Zoom avant */
+      }
+    100% {
+      transform: scale(.9);
+    }
+  }
+  
+  /* Appliquer l'animation au titre */
+  .zoom-in-out-title {
+    animation: zoomInOut 5s infinite; /* Durée de l'animation : 5 secondes, infinie */
+  }
+
+
+
+
+
+@keyframes zoomOut {
+    0% {
+      background-size: cover;
+    }
+    25% {
+      background-size: 150%; /* Légère augmentation du zoom */
+    }
+    50% {
+        background-size: 170%; /* Légère augmentation du zoom */
+      }
+      75% {
+        background-size: 150%; /* Légère augmentation du zoom */
+      }
+    100% {
+      background-size: cover;
+    }
+  }
+  
+  /* Appliquer l'animation de zoom-out à l'image de fond des produits */
+  .product-col {
+    position: relative;
+    animation: zoomOut 10s infinite; /* Animation de zoom-out infinie avec une durée de 10 secondes */
+  }
+  
+  /* Style pour les boutons alignés horizontalement */
+  .button-group {
+    display: flex;
+    justify-content: space-between;
+  }

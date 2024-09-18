@@ -1,0 +1,87 @@
+/* NavbarComponent.css */
+.nav-link {
+    color: #000; /* Couleur par défaut des liens */
+    transition: color 0.3s ease, background-color 0.3s ease;
+    margin:  0 2px;
+  }
+  
+  .nav-link:hover {
+    color: #fff !important; /* Couleur Bootstrap info sur hover */
+    background-color: #2264b0 !important; /* Légère coloration du fond au survol */
+    border-radius: 8px !important; /* Un peu de courbure pour l'arrière-plan */
+  }
+  
+  /* Ajouter une classe .selected pour l'élément actif */
+  .nav-link.selected {
+    color: #fff !important;
+    background-color: #2264b0 !important; /* Couleur Bootstrap info */
+    border-radius: 8px !important; /* Appliquez un arrondi pour l'effet */
+  }
+  
+
+  .cart-menu {
+    position: absolute;
+    top: 90px; /* Ajustez en fonction de la hauteur de votre Navbar */
+    right: 0;
+    width: 300px; /* Ajustez la largeur selon vos besoins */
+    z-index: 1050; /* Assurez-vous que le z-index est supérieur à celui de la Navbar */
+    background-color: white;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+  }
+  
+  .cart-menu.show {
+    display: block;
+  }
+  
+  .cart-count {
+    position: absolute;
+    top: -10px;
+    right: -10px;
+    background-color: red;
+    color: white;
+    padding: 2px 8px;
+    border-radius: 50%;
+  }
+  
+
+  .cart-dropdown {
+    width: 300px;
+    max-height: 400px;
+    overflow-y: auto;
+    background-color: #fff;
+    border: 1px solid #ddd;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    z-index: 1050; /* Ensure it appears above other content */
+  }
+  
+  .cart-dropdown ul {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+  }
+  
+  .cart-dropdown li {
+    padding: 5px 0;
+  }
+  
+  .cart-dropdown .badge {
+    position: absolute;
+    top: -10px;
+    right: -10px;
+  }
+  
+  .navbar-brand img {
+    width: 120px;
+  }
+  
+  .selected {
+    font-weight: bold;
+    color: #0d6efd;
+  }
+  
+  .cart-count {
+    font-size: 0.75rem;
+    padding: 3px 6px;
+  }

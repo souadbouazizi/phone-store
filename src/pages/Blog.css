@@ -1,0 +1,29 @@
+.zoom-container {
+  overflow: hidden;
+}
+
+.zoom-image {
+  transform-origin: center; /* Centrer le zoom */
+  animation: infiniteZoom 5s linear infinite; /* Animation continue du zoom */
+}
+
+@keyframes infiniteZoom {
+  0% {
+    transform: scale(1); /* Taille normale au début */
+  }
+
+  25% {
+    transform: scale(1.3); /* Agrandissement progressif jusqu'à 150% */
+  }
+
+  50% {
+    transform: scale(1.1); /* Agrandissement progressif jusqu'à 150% */
+  }
+
+  75% {
+    transform: scale(1.4); /* Agrandissement progressif jusqu'à 150% */
+  }
+  100% {
+    transform: scale(1.1); /* Agrandissement progressif jusqu'à 150% */
+  }
+}

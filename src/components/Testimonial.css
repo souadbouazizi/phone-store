@@ -1,0 +1,17 @@
+.testimonial-section {
+    background-color: #f9f9f9;
+  }
+  
+  .testimonial-carousel .testimonial-quote {
+    font-size: 2.5rem;
+    color: #333;
+  }
+  
+  .testimonial-text {
+    color: #555;
+  }
+  
+  .testimonial-carousel .carousel-indicators [data-bs-target] {
+    background-color: #0d6efd; /* Personnalisation de la couleur des indicateurs */
+  }
+  

@@ -1,0 +1,30 @@
+.newsletter-section {
+    background-color: #001f3f; /* Bleu foncé */
+    color: white;
+  }
+  
+  .newsletter-section h2 {
+    font-size: 2.5rem;
+    font-weight: bold;
+  }
+  
+  .newsletter-section p {
+    font-size: 1.2rem;
+  }
+  
+  .newsletter-section .form-control {
+    border-radius: 0;
+  }
+  
+  .newsletter-section .btn-info {
+    background-color: #17a2b8;
+    border: none;
+    border-radius: 0;
+    font-size: 1rem;
+    font-weight: bold;
+  }
+  
+  .newsletter-section .btn-info:hover {
+    background-color: #138496;
+  }
+  

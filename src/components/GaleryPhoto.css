@@ -1,0 +1,56 @@
+/* Style pour le conteneur de la galerie */
+.gallery-container {
+    width: 100%;
+    padding: 0;
+  }
+  
+  /* Style pour les colonnes des images de la galerie */
+  .gallery-col {
+    position: relative;
+    cursor: pointer;
+  }
+  
+  /* Style pour les images de la galerie */
+  .gallery-image {
+    transition: transform 0.3s ease-in-out;
+    object-fit: cover;
+  }
+  
+  /* Animation de zoom au survol */
+  .gallery-image-container:hover .gallery-image {
+    transform: scale(1.1);
+    filter: brightness(70%);
+  }
+  
+  /* Style pour le lien Instagram */
+  .instagram-link {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    opacity: 0;
+    transition: opacity 0.3s ease-in-out;
+    font-size: 2.5rem;
+    color: #fff;
+  }
+  
+  /* Afficher l'icône Instagram au survol */
+  .gallery-image-container:hover .instagram-link {
+    opacity: 1;
+  }
+  
+  /* Style pour l'icône Instagram */
+  .instagram-icon {
+    color: #fddee3; /* Couleur officielle Instagram */
+  }
+  
+  /* Modal styles */
+  .modal-body img {
+    max-width: 100%;
+    height: auto;
+  }
+  
+  .modal-footer {
+    justify-content: space-between;
+  }
+  

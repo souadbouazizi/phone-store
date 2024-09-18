@@ -1,0 +1,67 @@
+.dot.active {
+    background-color: #17a2b8; /* Couleur info */
+  }
+  .dot {
+    transition: background-color 0.3s ease;
+  }
+  
+
+/* ProductDisplay.css */
+
+
+.nav-link {
+  transition: color 0.3s ease, background-color 0.3s ease;
+  color : #4a4a4a !important;
+  
+}
+
+.nav-link:hover {
+  color: #fff !important;
+  background-color: #2264b0 !important; /* Adjust the color as needed */
+  border-radius: 8px;
+}
+
+.nav-link.active {
+  background-color: #2264b0 !important; /* Adjust the color as needed */
+  color: #fff !important;
+  border-radius: 8px;
+}
+
+@keyframes backgroundAnimation {
+  0% {
+    background-color: var(--bs-primary);
+  }
+  50% {
+    background-color: var(--bs-info);
+  }
+  100% {
+    background-color: var(--bs-primary);
+  }
+}
+
+.button-animated {
+  animation: backgroundAnimation 3s infinite alternate;
+  color: white; /* Ensure text color is readable */
+}
+
+
+
+
+
+
+
+
+
+
+
+li.page-item {
+  margin: 0 10px;}
+.active>.page-link, .page-link.active {
+    border-radius: 50% !important;
+}
+a.page-link {
+  border-radius: 50% !important;
+}
+.page-item:first-child .page-link{
+  border-radius: 50% !important;
+}
